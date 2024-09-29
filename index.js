@@ -34,7 +34,7 @@ genBtn.addEventListener("click", () => {
     // Append the new password div to the container
     passText.appendChild(newDiv);
 
-    newDiv.style.fontSize = "20px";
+    newDiv.style.fontSize = "18px";
     newDiv.style.color = "black";
     newDiv.style.fontWeight = "bold";
     newDiv.style.margin = "10px 0";
