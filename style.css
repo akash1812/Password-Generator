@@ -1,3 +1,39 @@
+body {
+	background: linear-gradient(
+		-45deg,
+		#ffffff,
+		#ffe4e9,
+		#fcc8e2,
+		#f6baed,
+		#efb0ff,
+		#d3a2ff,
+		#8eb8ff,
+		#91efff,
+		#d5f9ff
+	);
+	background-size: 400% 400%;
+	animation: gradient 9s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#myrange:hover{
+    cursor: pointer;
+}
+#btn{
+    border-radius: 2px;
+}
 .slidecontainer{
     display: flex;
     justify-content: center;
@@ -7,6 +43,13 @@
     display: flex;
     justify-content: center;
     padding: 2px;
+}
+#genBtn{
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
+#genBtn:hover{
+    cursor: pointer;
 }
 h1{
     display: flex;
