@@ -1,0 +1,19 @@
+.slidecontainer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.generateBtn{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
