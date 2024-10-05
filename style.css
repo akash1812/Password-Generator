@@ -55,7 +55,6 @@ h1{
     display: flex;
     justify-content: center;
     word-wrap: break-word;
-    margin-left: 10%;
 }
 div{
     display: flex;
